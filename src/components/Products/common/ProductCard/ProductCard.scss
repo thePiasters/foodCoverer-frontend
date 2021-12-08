@@ -1,0 +1,50 @@
+.card-main {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+}
+.large {
+  height: 350px;
+  width: 280px;
+  max-height: 350px;
+  max-width: 280px;
+  min-height: 350px;
+  min-width: 280px;
+  position: relative;
+  text-align: center;
+}
+.small {
+  height: 280px;
+  width: 224px;
+  max-height: 280px;
+  max-width: 224px;
+  min-height: 280px;
+  min-width: 224x;
+  position: relative;
+  text-align: center;
+}
+.card_bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.1em;
+}
+
+.product-card-footer {
+  background-color: white;
+  p {
+    color: rgb(107, 104, 104);
+    text-align: center;
+    font-size: 1.1em;
+  }
+  button {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+}

@@ -1,0 +1,30 @@
+.nav-side {
+  position: fixed;
+  background-color: #212529;
+  padding-top: 2%;
+  .sidebar-header {
+    background-color: #212529;
+    button {
+      width: 100%;
+      color: #02adb0;
+    }
+    span {
+      margin: 5%;
+    }
+  }
+  .sidebar-content {
+    background-color: #212529;
+    .sidebar-content-menu {
+      background-color: #212529;
+      box-shadow: none;
+    }
+  }
+}
+
+#nav-side-toggle-button {
+  max-width: 25%;
+  color: white;
+  padding-top: 40%;
+  height: 100vh;
+  position: fixed;
+}

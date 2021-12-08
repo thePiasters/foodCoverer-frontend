@@ -1,0 +1,29 @@
+.footer_bg {
+  height: 48vh;
+  width: 100%;
+  padding: 3%;
+  background-image: linear-gradient(
+      rgba(167, 224, 232, 0.2),
+      rgba(167, 224, 232, 0.2)
+    ),
+    url(./images/background.jpg);
+  background-size: cover;
+  color: #737373;
+  text-align: center;
+  text-shadow: 2px 2px 8px #b3b3b3;
+  // font-size: 1.7em;
+
+  button {
+    margin-top: 6%;
+    width: 60%;
+    text-align: center;
+  }
+
+  img {
+    margin-top: 6%;
+    max-height: 15vh;
+  }
+  .mg-top-5 {
+    margin-top: 5%;
+  }
+}

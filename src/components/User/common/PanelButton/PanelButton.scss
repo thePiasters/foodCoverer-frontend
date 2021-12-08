@@ -1,0 +1,20 @@
+.panel-button {
+  display: flex;
+  padding: 4%;
+  justify-content: center;
+  color: #999894;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+
+  &:hover {
+    background-color: #f2f5f5;
+  }
+
+  #icon {
+    border-right: 2px solid #999894;
+    padding-right: 5%;
+  }
+  #title {
+    font-size: 2em;
+    padding-left: 8%;
+  }
+}

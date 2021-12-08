@@ -1,0 +1,34 @@
+#nutri {
+  padding: 3%;
+
+  height: 50vh;
+  color: #666666;
+
+  .outer {
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    padding: 3%;
+  }
+
+  .inner {
+    padding-left: 3%;
+  }
+
+  h4 {
+    text-align: center;
+  }
+  img {
+    max-width: 50vh;
+  }
+  ul {
+    padding-left: 8%;
+    .green {
+      color: #00802b;
+      font-weight: bolder;
+    }
+    .orange {
+      color: #e64100;
+      font-weight: bolder;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.additives-bg {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(components/common/images/bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  min-height: 100vh;
+}
